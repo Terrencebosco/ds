@@ -2,6 +2,7 @@ import flask
 from flask_cors import CORS
 import json #jsonify?, requests?, cors?
 from predict import predict_on_new
+
 def create_app():
     """create instance of our flask app"""
     app = flask.Flask(__name__)
