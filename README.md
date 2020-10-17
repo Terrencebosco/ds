@@ -52,3 +52,31 @@ git push heroku master
 
 TODO
 
+build docker:
+
+```
+docker build -t <name>:latest
+
+docker run -it <name>
+
+docker stop <container id>
+
+
+```
+
+make new app and push image to heroku:
+
+```
+heroku create <app name>
+
+heroku container:push web --app <app name>
+
+heroku container:release web --app <app name>
+```
+
+can update image with 
+```
+heroku container:push web --app <app name>
+
+heroku container:release web --app <app name>
+```
