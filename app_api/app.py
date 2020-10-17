@@ -14,14 +14,14 @@ def create_app():
 
     @app.route('/predict', methods=['POST'])
     def predict_sub():
-        text = request.json['text']
+        # text = request.json['text']
 
-        return(predict_on_new(text))
+        # return(predict_on_new(text))
 
-        # return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))
+        return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))
 
     return app
 
-# if __name__ == '__main__':
-#     APP = create_app()
-#     APP.run()
+if __name__ == '__main__':
+    APP = create_app()
+    APP.run()
