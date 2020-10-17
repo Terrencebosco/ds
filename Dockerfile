@@ -16,4 +16,5 @@ COPY . /app
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "app_api/app.py" ]
+CMD [ "run.py" ]
+
