@@ -1,20 +1,24 @@
-FROM ubuntu:20.10
+# docker file for heroku
 
-RUN apt-get update -y && \
-    apt-get install -y python3-pip python-dev
+# creat python instance for docker image
+FROM python:3.8-slim-buster
 
-RUN pip install --upgrade pip
+# install pip in image
+RUN python -m pip install --upgrade pip
 
-# We copy just the requirements.txt first to leverage Docker cache
-COPY ./requirements.txt /app/requirements.txt
-
+# create dir in imade
 WORKDIR /app
 
-RUN pip install -r requirements.txt
-
+#copy currence dir data to image dir
 COPY . /app
 
-ENTRYPOINT [ "python" ]
+# install dependency to image
+RUN pip3 install -r requirements.txt
 
-CMD [ "run.py" ]
+# expose local port
+EXPOSE 5000
 
+# run flask app
+ENTRYPOINT ["python"]
+
+CMD ["app_api/app.py"]
