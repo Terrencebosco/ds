@@ -22,3 +22,6 @@ def create_app():
 
     return app
 
+if __name__ == '__main__':
+    APP = create_app()
+    APP.run()
