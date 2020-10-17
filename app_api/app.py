@@ -1,7 +1,7 @@
 import flask
 from flask_cors import CORS
 import json #jsonify?, requests?, cors?
-from predict import predict_on_new
+from .predict import predict_on_new
 
 def create_app():
     """create instance of our flask app"""
@@ -22,6 +22,6 @@ def create_app():
 
     return app
 
-if __name__ == '__main__':
-    APP = create_app()
-    APP.run()
+# if __name__ == '__main__':
+#     APP = create_app()
+#     APP.run()
