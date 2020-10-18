@@ -17,9 +17,28 @@ def create_app():
 
     @app.route('/predict', methods=['POST'])
     def predict_sub():
-        text = flask.request.form.values()
-        text_list = list(text)
-        prediction = predict_on_new((text_list[0]))
+        '''
+        Create route for prediction of of user text that can be used to make a
+        prediction.
+
+        user inputs text, and int
+            text: series of string objects
+            int: none 0 number from 1 to 20.
+        '''
+        # gain inputs from html form
+        user_input = flask.request.form.values()
+
+        # convert generateor object to list
+        user_input_list = list(user_input)
+
+        ## slice list convert to proper type
+        num = int(user_input_list[1])
+        text = str(user_input_list[0])
+
+        # predict
+        prediction = predict_on_new(text, num)
+
+        # return prediction
         return(flask.render_template('base.html',prediction_text=prediction))
 
     return app
@@ -39,6 +58,12 @@ if __name__ == '__main__':
         # hit 142mph and it got up to that speed super quick. The sound of the engine right
         # behind your head screaming as your floor it is something that you gotta hear.'''
 
+         # print('---')
+                    # print(user_input_list[0],type(user_input_list[0]))
+                    # print('---')
+                    # print(num, type(num))
+                    # print('---')
+                    # return(flask.render_template('base.html'))
 
         # return(predict_on_new(text))
         #return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))

@@ -24,10 +24,10 @@ maxlen = 250 # DO NOT MODIFY THIS
 
 def predict_on_new(input, n, tokenizer=tokenizer, restored_model=restored_model,
                    maxlen=maxlen, encoder=encoder):
-    '''This function takes two arguments: input as a string, and n, an integer between 1 and 20, 
-    and returns (in JSON format) the top n subreddit predictions along with each subreddit's 
+    '''This function takes two arguments: input as a string, and n, an integer between 1 and 20,
+    and returns (in JSON format) the top n subreddit predictions along with each subreddit's
     tier 1 and tier 2 categories'''
-    
+
     if (n < 1) or (n > 20):
         raise Exception('Invalid input: Enter a number between 1 and 20')
 
@@ -57,6 +57,8 @@ def predict_on_new(input, n, tokenizer=tokenizer, restored_model=restored_model,
     return json.dumps(pred_dict)
 
 if __name__ == "__main__":
+
+    # test string
     string_from_web = '''Was in Vegas this weekend and hit up Speed Vegas. My plan
     originally was to drive the C8 but this time I could afford the Ferrari so I
     went with that and I don't regret my decision at all. Driving a Ferrari was a
@@ -68,10 +70,12 @@ if __name__ == "__main__":
     hit 142mph and it got up to that speed super quick. The sound of the engine right
     behind your head screaming as your floor it is something that you gotta hear.'''
 
-#     string_from_web = '''PandasGUI is a project for EDA in Pandas that I have been working on a while now and finally feel ready to share here. I use this a lot for my own data analysis and hope it will help others too!
+    #test number of returns
+    num = 1
 
-# I was inspired to make this after using applications like Excel, Tableau and JMP and finding them quicker than Pandas for basic ad hoc viewing, plotting and reshaping. PandasGUI aims to make basic EDA easy but also allows you to easily move DataFrames in memory between the GUI and IPython so you still have the full power of Pandas. It's made with PyQt5 and renders in a standalone window compatible with any IDE.'''
+    #test list
+    test = [string_from_web,num, num]
 
     # Prediction JSON returned to web
-    print(predict_on_new(string_from_web))
+    print(predict_on_new(str(test[0]),int(test[1])))
 

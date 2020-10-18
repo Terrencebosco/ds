@@ -16,14 +16,17 @@
 </head>
 <body>
     <form action="{{ url_for('predict_sub') }}" method="post">
-        <legend>insert text</legend>
+        <legend>Text</legend>
             <textarea name="text" required></textarea>
         <br>
+        <legend>Number 1-20</legend>
+            <input name="num" type="number" required>
+            <br>
             <input type="submit">
     </form>
-    <div class="result">
+    <!-- <div class="result"> -->
         <h3>Predicted Subreddit:</h3>
             <p style="font-size:50px">{{ prediction_text }}</p>
-    </div>
+    <!-- </div> -->
 </body>
 </html>
