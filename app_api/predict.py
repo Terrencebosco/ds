@@ -22,20 +22,28 @@ with open('model/sklearn_label_encoder_v5.pickle', 'rb') as handle:
 
 maxlen = 250 # DO NOT MODIFY THIS
 
-def predict_on_new(input, tokenizer=tokenizer, restored_model=restored_model,
+def predict_on_new(input, n, tokenizer=tokenizer, restored_model=restored_model,
                    maxlen=maxlen, encoder=encoder):
-    '''This function takes an input as a string (Web will hit our API endpoint)
-    and returns (in JSON format) the top five subreddit predictions along with
-    each subreddit's tier 1 and tier 2 categories'''
+    '''This function takes two arguments: input as a string, and n, an integer between 1 and 20, 
+    and returns (in JSON format) the top n subreddit predictions along with each subreddit's 
+    tier 1 and tier 2 categories'''
+    
+    if (n < 1) or (n > 20):
+        raise Exception('Invalid input: Enter a number between 1 and 20')
+
     seq = tokenizer.texts_to_sequences([input])
     pad_seq = sequence.pad_sequences(seq, maxlen=maxlen)
     pred = restored_model.predict(pad_seq)
-    class_names = list(encoder.inverse_transform(pred[0].argsort()[-5:][::-1]))
+    class_names = list(encoder.inverse_transform(pred[0].argsort()[-n:][::-1]))
 
     t1_category = []
     t2_category = []
 
-    pred_key = ['pred_1', 'pred_2', 'pred_3', 'pred_4', 'pred_5']
+    pred_key = []
+
+    for i in range(1, n+1):
+        key = 'pred_{}'.format(i)
+        pred_key.append(key)
 
     for c in class_names:
         for i, sub_red in enumerate(subreddit_info['subreddit']):
