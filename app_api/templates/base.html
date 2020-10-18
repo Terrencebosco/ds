@@ -1,37 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "bootstrap_layout.html" %}
+{% set active_page = "base.html" %}
 
-<style>
-.result {
-    margin: auto;
-    width: 50%;
-    border: 1px solid #ccc;
-}
-</style>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Reach</title>
-</head>
-<body>
+{% block content %}
     <form action="{{ url_for('predict_sub') }}" method="post">
-        <legend>Text</legend>
+        <legend>Text:</legend>
             <textarea name="text" required></textarea>
         <br>
-        <legend>Number 1-20</legend>
+        <legend>Number 1-20:</legend>
             <input name="num" type="number" required>
+            <br>
             <br>
             <input type="submit">
     </form>
     <div class="result">
+        <br>
+        <br>
         <h3>Predicted Subreddits:</h3>
-            {% block content %}
+            
             {% for pred in prediction_text %}
             <span class="stack"><li>{{ pred }}</li></span>
             {% endfor %}
-            {% endblock %}
+
             <!-- <p style="font-size:50px">{{ prediction_text }}</p> -->
     </div>
-</body>
-</html>
+{% endblock %}
