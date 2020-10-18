@@ -24,9 +24,14 @@
             <br>
             <input type="submit">
     </form>
-    <!-- <div class="result"> -->
-        <h3>Predicted Subreddit:</h3>
-            <p style="font-size:50px">{{ prediction_text }}</p>
-    <!-- </div> -->
+    <div class="result">
+        <h3>Predicted Subreddits:</h3>
+            {% block content %}
+            {% for pred in prediction_text %}
+            <span class="stack"><li>{{ pred }}</li></span>
+            {% endfor %}
+            {% endblock %}
+            <!-- <p style="font-size:50px">{{ prediction_text }}</p> -->
+    </div>
 </body>
 </html>

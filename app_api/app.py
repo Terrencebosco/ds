@@ -1,7 +1,7 @@
 import flask
 from flask_cors import CORS
 import json
-from predict import predict_on_new
+from predict import predict_on_new, json_to_list
 from os import getenv
 
 port = int(getenv("PORT", 5000))
@@ -25,6 +25,7 @@ def create_app():
             text: series of string objects
             int: none 0 number from 1 to 20.
         '''
+
         # gain inputs from html form
         user_input = flask.request.form.values()
 
@@ -38,8 +39,10 @@ def create_app():
         # predict
         prediction = predict_on_new(text, num)
 
+        prediction_list = json_to_list(prediction)
+
         # return prediction
-        return(flask.render_template('base.html',prediction_text=prediction))
+        return(flask.render_template('base.html',prediction_text=prediction_list))
 
     return app
 

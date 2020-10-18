@@ -56,6 +56,21 @@ def predict_on_new(input, n, tokenizer=tokenizer, restored_model=restored_model,
             pred_dict = OrderedDict(zip(pred_key, zip(class_names, zip(t1_category, t2_category))))
     return json.dumps(pred_dict)
 
+def json_to_list(json_string):
+
+    # convert string to json
+    predict_json = json.loads(json_string)
+
+    # get all keys from json
+    key_list= predict_json.keys()
+
+    # create list of all predictions
+    predictions = []
+    for i in key_list:
+        predictions.append(predict_json[i][0])
+
+    return predictions
+
 if __name__ == "__main__":
 
     # test string
@@ -71,11 +86,13 @@ if __name__ == "__main__":
     behind your head screaming as your floor it is something that you gotta hear.'''
 
     #test number of returns
-    num = 1
+    num = 2
 
     #test list
     test = [string_from_web,num, num]
 
     # Prediction JSON returned to web
-    print(predict_on_new(str(test[0]),int(test[1])))
+    predict = predict_on_new(str(test[0]),int(test[1]))
 
+    #return list of predictions
+    print(json_to_list(predict))
