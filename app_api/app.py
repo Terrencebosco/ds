@@ -13,10 +13,20 @@ def create_app():
 
     @app.route('/')
     def root():
-        return 'hello'
+        return(flask.render_template('base.html'))
 
     @app.route('/predict', methods=['POST'])
     def predict_sub():
+        text = flask.request.form.values()
+        text_list = list(text)
+        prediction = predict_on_new((text_list[0]))
+        return(flask.render_template('base.html',prediction_text=prediction))
+
+    return app
+
+if __name__ == '__main__':
+    APP = create_app()
+    APP.run(debug=True, host="0.0.0.0", port=port)
 
         # text = string_from_web = '''Was in Vegas this weekend and hit up Speed Vegas. My plan
         # originally was to drive the C8 but this time I could afford the Ferrari so I
@@ -31,11 +41,4 @@ def create_app():
 
 
         # return(predict_on_new(text))
-
-        return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))
-
-    return app
-
-if __name__ == '__main__':
-    APP = create_app()
-    APP.run(host="0.0.0.0", port=port)
+        #return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))

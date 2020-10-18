@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+.result {
+    margin: auto;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Reach</title>
+</head>
+<body>
+    <form action="{{ url_for('predict_sub') }}" method="post">
+        <legend>insert text</legend>
+            <textarea name="text" required></textarea>
+        <br>
+            <input type="submit">
+    </form>
+    <div class="result">
+        <h3>Predicted Subreddit:</h3>
+            <p style="font-size:50px">{{ prediction_text }}</p>
+    </div>
+</body>
+</html>
