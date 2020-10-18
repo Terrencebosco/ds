@@ -15,6 +15,10 @@ def create_app():
     def root():
         return(flask.render_template('base.html'))
 
+    @app.route('/about')
+    def about():
+        return(flask.render_template('about.html'))
+
     @app.route('/predict', methods=['POST'])
     def predict_sub():
         '''
@@ -50,7 +54,7 @@ if __name__ == '__main__':
     APP = create_app()
     APP.run(debug=True, host="0.0.0.0", port=port)
 
-        # text = string_from_web = '''Was in Vegas this weekend and hit up Speed Vegas. My plan
+        # text = '''Was in Vegas this weekend and hit up Speed Vegas. My plan
         # originally was to drive the C8 but this time I could afford the Ferrari so I
         # went with that and I don't regret my decision at all. Driving a Ferrari was a
         # childhood dream come true and its something I'll never forget as long as I live.

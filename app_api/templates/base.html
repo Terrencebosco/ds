@@ -2,12 +2,13 @@
 {% set active_page = "base.html" %}
 
 {% block content %}
+
     <form action="{{ url_for('predict_sub') }}" method="post">
         <legend>Text:</legend>
-            <textarea name="text" required></textarea>
+            <textarea name="text" style="width:500px" required></textarea>
         <br>
         <legend>Number 1-20:</legend>
-            <input name="num" type="number" required>
+            <input name="num" type="number" pattern="[1-20]" required>
             <br>
             <br>
             <input type="submit">
@@ -16,11 +17,9 @@
         <br>
         <br>
         <h3>Predicted Subreddits:</h3>
-            
+
             {% for pred in prediction_text %}
             <span class="stack"><li>{{ pred }}</li></span>
             {% endfor %}
-
-            <!-- <p style="font-size:50px">{{ prediction_text }}</p> -->
     </div>
 {% endblock %}
