@@ -81,3 +81,18 @@ heroku container:push web --app <app name>
 
 heroku container:release web --app <app name>
 ```
+
+'''
+## Implementing AWS Beanstalk entity
+
+TODO
+'''
+pip install pipx
+
+pipx ensurepath
+
+pipx install awsebcli
+
+eb init
+
+eb create
