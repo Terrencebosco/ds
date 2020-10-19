@@ -1,0 +1,1014 @@
+subreddit,category_1,category_2
+whatsthatbook,advice/question,book
+theydidthemath,advice/question,calculations
+datarecovery,advice/question,data recovery
+declutter,advice/question,declutter
+productivity,advice/question,discipline
+Gifts,advice/question,gift ideas
+immigration,advice/question,immigration
+nosurf,advice/question,internet cessation
+legaladviceofftopic,advice/question,legal advice
+INeedAName,advice/question,name advice
+whatsthisplant,advice/question,plant identification
+resumes,advice/question,resumes
+NameThatSong,advice/question,song
+StopGaming,advice/question,stopping gaming
+translator,advice/question,translation
+whatsthisworth,advice/question,valuation
+whatstheword,advice/question,words
+WouldYouRather,advice/question,would you rather
+Beekeeping,animals,bees
+bettafish,animals,beta fish
+cats,animals,cats
+BackYardChickens,animals,chickens
+puppy101,animals,dogs
+ferrets,animals,ferrets
+guineapigs,animals,guinea pigs
+hamsters,animals,hamsters
+Bedbugs,animals,insects
+leopardgeckos,animals,leopard geckos
+BeardedDragons,animals,lizard
+parrots,animals,parrots
+Rabbits,animals,rabbits
+RATS,animals,rats
+shrimptank,animals,shrimps
+snakes,animals,snakes
+tarantulas,animals,spiders
+ShingekiNoKyojin,anime/manga,attack on titan
+Berserk,anime/manga,berserk
+bleach,anime/manga,bleach
+BokuNoHeroAcademia,anime/manga,boku no hero academia
+CaptainTsubasaDT,anime/manga,captain tsubasa
+DarlingInTheFranxx,anime/manga,darling in the franxx
+deathnote,anime/manga,death note
+DDLC,anime/manga,doki doki literature club
+dbz,anime/manga,dragonball z
+fatestaynight,anime/manga,fate/stay
+Gunpla,anime/manga,gundam
+HunterXHunter,anime/manga,hunter x hunter
+StardustCrusaders,anime/manga,jojo adventures
+KissAnime,anime/manga,kiss
+araragi,anime/manga,monogatari
+Naruto,anime/manga,naruto
+evangelion,anime/manga,neon genesis evangelion
+OnePieceTC,anime/manga,one piece
+OnePunchMan,anime/manga,one punch man
+overlord,anime/manga,overlord
+Re_Zero,anime/manga,re:zero
+RWBY,anime/manga,rwby
+swordartonline,anime/manga,sword art online
+TheLastAirbender,anime/manga,the last airbender
+TokyoGhoul,anime/manga,tokyo ghoul
+TowerofGod,anime/manga,tower of god
+beards,appearance,beards
+ABraThatFits,appearance,bra
+bootroom,appearance,football boots
+malehairadvice,appearance,haircare
+rawdenim,appearance,jeans
+jewelry,appearance,jewelry
+muacjdiscussion,appearance,makeup
+RedditLaqueristas,appearance,nailcare
+fragrance,appearance,perfume
+SkincareAddiction,appearance,skincare
+Sneakers,appearance,sneakers
+3Dprinting,arts,3d printing
+animation,arts,animation
+AutoDetailing,arts,auto detailing
+characterdrawing,arts,character design
+cinematography,arts,cinematography
+drawing,arts,drawing
+tabletopgamedesign,arts,game development
+graphic_design,arts,graphic design
+lasercutting,arts,laser cutting
+Leathercraft,arts,leathercraft
+logorequests,arts,logo
+Welding,arts,metalwork
+modelmakers,arts,miniatures
+photography,arts,photography
+SCREENPRINTING,arts,screen printing
+sewing,arts,sewing/knitting
+tattoo,arts,tattoos
+hamiltonmusical,arts,theatre
+lightingdesign,arts,theatre technician
+turning,arts,turning
+woodworking,arts,woodworking
+Volkswagen,autos,VW
+Audi,autos,audi
+BMW,autos,bmw
+volt,autos,chevrolet
+Mustang,autos,ford
+Harley,autos,harley davidson
+Honda,autos,honda
+Hyundai,autos,hyundai
+Wrangler,autos,jeep
+Lexus,autos,lexus
+mazda3,autos,mazda
+mercedes_benz,autos,mercedes
+MPSelectMiniOwners,autos,mini
+Porsche,autos,porsche
+saab,autos,saab
+subaru,autos,subaru
+teslamotors,autos,tesla
+4Runner,autos,toyota
+Trucks,autos,trucks
+Volvo,autos,volvo
+ageofsigmar,board_game,age of sigmar
+baduk,board_game,baduk
+bloodbowl,board_game,blood bowl
+3d6,board_game,character development
+DungeonWorld,board_game,dungeon world
+Gloomhaven,board_game,gloom haven
+KingdomDeath,board_game,kingdom death
+WarhammerCompetitive,board_game,warhammer
+Warmachine,board_game,warmachine
+Stormlight_Archive,books,cosmere
+dresdenfiles,books,dresden files
+eroticauthors,books,erotic fiction
+harrypotter,books,harry potter
+Malazan,books,malazan
+WormFanfic,books,parahuman
+Parahumans,books,parahumans
+readyplayerone,books,ready player one
+suggestmeabook,books,suggestion
+TheDarkTower,books,the dark tower
+KingkillerChronicle,books,the kingkiller chronicle
+WoT,books,wheel of time
+cardfightvanguard,card_game,card fight
+DBS_CardGame,card_game,dragon ball
+DBZDokkanBattle,card_game,dragon ball z
+EternalCardGame,card_game,eternal card game
+FinalFantasyTCG,card_game,final fantasy
+FoWtcg,card_game,force of will
+GirlsXBattle,card_game,girls x battle
+l5r,card_game,legend of the five rings
+spikes,card_game,magic the gathering
+Netrunner,card_game,netrunner
+Pauper,card_game,pauper
+pkmntcg,card_game,pokemon
+poker,card_game,poker
+Shadowverse,card_game,shadowverse
+Yugioh101,card_game,yu-gi-oh
+audible,company/website,audio books
+BeautyBoxes,company/website,beauty
+Wordpress,company/website,blogging
+starbucks,company/website,coffee
+postmates,company/website,courier service
+kickstarter,company/website,crowdfunding
+Costco,company/website,department store
+GameStop,company/website,electronics store
+Outlier,company/website,fashion retail
+tacobell,company/website,fast food
+crossfit,company/website,fitness
+IKEA,company/website,furniture
+walmart,company/website,general department store
+InstacartShoppers,company/website,grocery store
+HomeDepot,company/website,hardware store
+criterion,company/website,home video distribution
+AirBnB,company/website,hospitality service
+knifeclub,company/website,knives
+Staples,company/website,office supply store
+Tinder,company/website,online dating
+amazon,company/website,online marketplace
+paypal,company/website,online payment
+uberdrivers,company/website,ride hailing
+SpaceXLounge,company/website,space travel
+Cisco,company/website,telecommunication equipment
+verizon,company/website,telecommunications service
+MoviePassClub,company/website,tv/movie provider
+Magento,company/website,website building
+BATProject,crypto,bat
+btc,crypto,bitcoin
+burstcoin,crypto,burst
+CryptoKitties,crypto,crypto kitties
+binance,crypto,crypto-market
+dashpay,crypto,dash
+dogecoin,crypto,dogecoin
+Electroneum,crypto,electroneum
+eos,crypto,eos
+ethtrader,crypto,ethereum
+garlicoin,crypto,garlic coin
+gridcoin,crypto,gridcoin
+Iota,crypto,iota
+KeybaseProofs,crypto,keybase proof
+kucoin,crypto,kucoin
+Lisk,crypto,lisk
+litecoin,crypto,litecoin
+MoneroMining,crypto,monero
+nanocurrency,crypto,nano
+NEO,crypto,neo
+PoloniexForum,crypto,poloniex
+reddCoin,crypto,reddcoin
+Ripple,crypto,ripple
+siacoin,crypto,siacoin
+Stellar,crypto,stellar
+tezos,crypto,tezos
+Tronix,crypto,tronix
+vergecurrency,crypto,verge
+vertcoin,crypto,vertcoin
+adderall,drugs,adderall
+afinil,drugs,afinil
+antidepressants,drugs,antidepressants
+Ayahuasca,drugs,ayahuasca
+benzodiazepines,drugs,benzodiazepines
+weed,drugs,cannabis
+Cigarettes,drugs,cigarettes
+cocaine,drugs,cocaine
+AlphaBayMarket,drugs,darknet market
+dxm,drugs,dxm
+TransDIY,drugs,female hormones
+Kava,drugs,kava
+quittingkratom,drugs,kratom
+MDMA,drugs,mdma
+Nootropics,drugs,nootropics
+opiates,drugs,opiates
+phenibut,drugs,phelibut
+shrooms,drugs,psychadelics
+Snus,drugs,snus
+Steroidsourcetalk,drugs,steroids
+Testosterone,drugs,testosterone
+cigars,drugs,tobacco
+TheXanaxCartel,drugs,xanax
+APStudents,education,advanced placement
+MBA,education,business
+gradadmissions,education,graduate
+lawschooladmissions,education,law
+ChineseLanguage,education,learning chinese
+ACT,education,learning english
+French,education,learning french
+German,education,learning german
+LearnJapanese,education,learning japanese
+Korean,education,learning korean
+latin,education,learning latin
+russian,education,learning russian
+Spanish,education,learning spanish
+GMAT,education,management
+prephysicianassistant,education,medicine
+Sat,education,secondary
+yorku,education,university
+fitbit,electronics,activity monitor
+cade,electronics,arcade games
+gopro,electronics,camera
+cassetteculture,electronics,cassette players
+thinkpad,electronics,computer
+MechanicalKeyboards,electronics,computer keyboard
+ultrawidemasterrace,electronics,computer monitor
+MouseReview,electronics,computer mouse
+synology,electronics,computer storage
+intel,electronics,cpu
+networking,electronics,data networking
+Roku,electronics,digital media player
+dvdcollection,electronics,dvds
+juul,electronics,e-cigarette
+kindle,electronics,e-reader
+boostedboards,electronics,electric skateboarding
+Corsair,electronics,fan
+amiibo,electronics,figurines
+flashlight,electronics,flashlight
+fightsticks,electronics,gaming stick
+Garmin,electronics,gps
+nvidia,electronics,graphics card
+wacom,electronics,graphics tablet
+GuitarAmps,electronics,guitar amps
+guitarpedals,electronics,guitar pedals
+TREZOR,electronics,hardware wallet
+headphones,electronics,headphones/headsets
+homedefense,electronics,home security
+hometheater,electronics,home theatre
+Nest,electronics,iot device
+ASUS,electronics,laptop/notebook
+Hue,electronics,lighting
+Chromecast,electronics,media streaming
+arduino,electronics,microcontroller
+GalaxyS8,electronics,mobile/tablet
+dji,electronics,multicopter
+SonyXperia,electronics,phone
+windowsphone,electronics,phone/tablet
+PLC,electronics,programmable controller
+amateurradio,electronics,radio
+seedboxes,electronics,seedbox
+homelab,electronics,server
+raspberry_pi,electronics,single-board computer
+pebble,electronics,smartwatch
+solar,electronics,solar panel
+amazonecho,electronics,speakers
+synthesizers,electronics,synthesizers
+ShieldAndroidTV,electronics,television
+appletv,electronics,tv
+SteamController,electronics,videogame controller
+oculus,electronics,vr headset
+Charity,finance/money,charity
+churning,finance/money,churning
+CreditCards,finance/money,credit
+AskEconomics,finance/money,economics
+Insurance,finance/money,insurance
+weedstocks,finance/money,investment
+personalfinance,finance/money,personal finance
+RealEstate,finance/money,real estate / house buying
+StudentLoans,finance/money,student loans
+tax,finance/money,tax
+smoking,food/drink,barbeque
+beer,food/drink,beer
+Breadit,food/drink,bread
+Chefit,food/drink,chefs
+cocktails,food/drink,cocktails
+instantpot,food/drink,instantpot
+Kombucha,food/drink,kombucha
+mead,food/drink,mead
+HotPeppers,food/drink,peppers
+slowcooking,food/drink,slow cooking
+sousvide,food/drink,sous-vide
+tea,food/drink,tea
+vegetarian,food/drink,vegetarian/vegan
+bourbon,food/drink,whiskey
+wine,food/drink,wine
+belgium,geo,belgium
+canada,geo,canada
+China,geo,china
+Denmark,geo,denmark
+Egypt,geo,egypt
+france,geo,france
+germany,geo,germany
+HongKong,geo,hong kong
+VisitingIceland,geo,iceland
+indonesia,geo,indonesia
+Israel,geo,israel
+italy,geo,italy
+japanlife,geo,japan
+korea,geo,korea
+lebanon,geo,lebanon
+malaysia,geo,malaysia
+Nepal,geo,nepal
+newzealand,geo,new zealand
+Norway,geo,norway
+pakistan,geo,pakistan
+Philippines,geo,phillipines
+poland,geo,poland
+russia,geo,russian
+southafrica,geo,south africa
+spain,geo,spain
+sweden,geo,sweden
+Turkey,geo,turkey
+unitedkingdom,geo,united kingdom
+VietNam,geo,vietnam
+tdi,hardware/tools,car turbo
+ringdoorbell,hardware/tools,doorbells
+reloading,hardware/tools,guns
+homegym,hardware/tools,gym equipment
+hookah,hardware/tools,hookah
+HVAC,hardware/tools,hvac
+wicked_edge,hardware/tools,knife sharpener
+Mattress,hardware/tools,mattress
+Nerf,hardware/tools,nerf
+notebooks,hardware/tools,notebooks
+fountainpens,hardware/tools,pens
+scooters,hardware/tools,scooters
+telescopes,hardware/tools,telescopes
+watercooling,hardware/tools,watercooling
+ACL,health,ACL problem
+ADHD,health,adhd
+stopdrinking,health,alcohol
+Allergies,health,allergies
+rheumatoid,health,arthritis
+autism,health,aspergers/autism
+AvPD,health,avpd
+bipolar,health,bipolar disorder
+raisedbyborderlines,health,bpd
+Invisalign,health,braces
+bigboobproblems,health,breasts
+cancer,health,cancer
+Celiac,health,celiac
+cfs,health,chronic fatigue syndrome
+CrohnsDisease,health,crohns disease
+deaf,health,deafness
+diabetes,health,diabetes
+DID,health,did
+xxketo,health,diet
+dpdr,health,dpdr
+ehlersdanlos,health,ehlers danlos syndrome
+emetophobia,health,emetophobia
+Endo,health,endo
+Epilepsy,health,epilepsy
+Fibromyalgia,health,fibromylgia
+flexibility,health,flexibility
+foreskin_restoration,health,foreskin restoration
+GERD,health,gerd
+Herpes,health,herpes
+Hypothyroidism,health,hypothyroidism
+ibs,health,ibs
+insomnia,health,insomnia
+lasik,health,lasik
+MaladaptiveDreaming,health,maladaptive daydreaming
+migraine,health,migraine
+Meditation,health,mindfulness/meditation
+misophonia,health,misophonia
+MultipleSclerosis,health,multiple sclerosis
+raisedbynarcissists,health,narcissism
+Narcolepsy,health,narcolepsy
+OCD,health,ocd
+optometry,health,optometry/glasses
+PCOS,health,pcos
+bigdickproblems,health,penis
+physicaltherapy,health,physical therapy
+PlasticSurgery,health,plastic surgery
+ptsd,health,ptsd
+Schizoid,health,schizoid
+schizophrenia,health,schizophrenia
+eczema,health,skin problems
+SleepApnea,health,sleep apnea
+Sleepparalysis,health,sleep paralysis
+stopsmoking,health,smoking cessation
+sociopath,health,sociopathy
+slp,health,speech therapy
+tinnitus,health,tinnitus
+vaginismus,health,vaginismus
+wls,health,weight loss surgery
+airsoft,hobby,airsoft
+asmr,hobby,asmr
+camping,hobby,camping
+cardistry,hobby,card manipulation
+chess,hobby,chess
+cosplay,hobby,cosplay
+Debate,hobby,debating
+driving,hobby,driving
+flyfishing,hobby,fishing
+flying,hobby,flying
+speedrun,hobby,game speedrunning
+Hunting,hobby,hunting
+minimalism,hobby,interior design
+succulents,hobby,landscaping / gardening
+lego,hobby,lego
+lockpicking,hobby,lock picking
+LucidDreaming,hobby,lucid dreaming
+Luthier,hobby,luthiers
+Magic,hobby,magic tricks
+modeltrains,hobby,model trains
+MuayThai,hobby,muay thai
+paintball,hobby,paintball
+piercing,hobby,piercing
+funkopop,hobby,pop vinyl
+rccars,hobby,rc cars
+Cubers,hobby,rubiks cube
+sailing,hobby,sailing
+scuba,hobby,scuba diving
+yoga,hobby,yoga
+Throwers,hobby,yoyo
+JustUnsubbed,meta,criticism
+redditdev,meta,developers
+Drama,meta,drama
+MemeEconomy,meta,memes
+AutoModerator,meta,moderation
+Gamingcirclejerk,meta,parody
+place,meta,reddit place
+findareddit,meta,subreddit search
+redesign,meta,website changes
+LV426,movies,alien
+bladerunner,movies,bladerunner
+Cloververse,movies,cloverfield
+GODZILLA,movies,godzilla
+horror,movies,horror
+lotr,movies,lord of the rings
+zootopia,movies,zootopia
+arcticmonkeys,music,arctic monkeys
+bangtan,music,bangtan
+Bass,music,bass guitar
+Blink182,music,blink 182
+brandnew,music,brand new
+brockhampton,music,brockhampton
+classicalmusic,music,classical
+deathgrips,music,death grips
+Beatmatch,music,djs
+drumcorps,music,drumcorps
+drums,music,drums
+EDM,music,electronic
+Eminem,music,eminem
+FrankOcean,music,frank ocean
+GiIvaSunner,music,gilva sunner
+gorillaz,music,gorillaz
+guitars,music,guitar
+hiphopheads,music,hip hop
+Jazz,music,jazz
+kpop,music,k-pop
+Kanye,music,kanye
+KendrickLamar,music,kendrick lamar
+LinkinPark,music,linkin park
+Metalcore,music,metal music
+Metallica,music,metallica
+Monstercat,music,monstercat
+musictheory,music,music theory
+nin,music,nine inch nails
+piano,music,piano
+pinkfloyd,music,pink floyd
+popheads,music,pop
+radiohead,music,radiohead
+Saxophonics,music,saxophone
+singing,music,singing
+TaylorSwift,music,taylor swift
+beatles,music,the beatles
+TheWeeknd,music,the weeknd
+trumpet,music,trumpet
+twentyonepilots,music,twenty one pilots
+ukulele,music,ukulele
+vinyl,music,vinyl
+violinist,music,violin
+weezer,music,weezer
+UFOs,other,aliens
+barstoolsports,other,barstool sports
+boxoffice,other,box office figures
+bulletjournal,other,bullet journal
+codes,other,codes
+coins,other,coins
+EARONS,other,east area rapist
+fakeid,other,fake ids
+MandelaEffect,other,false memory
+FidgetSpinners,other,fidget spinners
+Genealogy,other,genealogy
+grammar,other,grammar
+history,other,history
+JETProgramme,other,jet programme
+lightsabers,other,light saber
+linguistics,other,linguistics
+AskLiteraryStudies,other,literary studies
+UnresolvedMysteries,other,mysteries
+askphilosophy,other,philosophy
+privacy,other,privacy
+rollercoasters,other,roller coasters
+Scams,other,scams
+SCP,other,scp
+secretsanta,other,secret santa
+Shoplifting,other,stealing
+SampleSize,other,surveys
+vexillology,other,vexillology
+abortion,parenting,abortion
+Adoption,parenting,adoption
+birthcontrol,parenting,birth control
+breastfeeding,parenting,breast feeding
+TryingForABaby,parenting,conception
+clothdiaps,parenting,diapers
+infertility,parenting,infertility
+Miscarriage,parenting,miscarriage
+namenerds,parenting,naming
+pregnant,parenting,pregnancy
+sleeptrain,parenting,sleep training
+stepparents,parenting,step parenting
+parentsofmultiples,parenting,twins/multiples
+DebateAltRight,politics/viewpoint,alt-right
+Anarchism,politics/viewpoint,anarchism
+childfree,politics/viewpoint,antinatalism
+communism101,politics/viewpoint,communism
+Conservative,politics/viewpoint,conservative
+ZeroWaste,politics/viewpoint,environmentalism
+GenderCritical,politics/viewpoint,feminism
+flatearth,politics/viewpoint,flat earth
+antiMLM,politics/viewpoint,marketing
+asktrp,politics/viewpoint,mens rights
+neoliberal,politics/viewpoint,neoliberal
+netneutrality,politics/viewpoint,net neutrality
+nihilism,politics/viewpoint,nihilism
+socialism,politics/viewpoint,socialism
+collapse,politics/viewpoint,societal collapse
+Stoicism,politics/viewpoint,stoicism
+techsupport,profession,IT
+Professors,profession,academic
+Accounting,profession,accounting
+acting,profession,acting
+actuary,profession,actuary
+marketing,profession,advertising / marketing
+architecture,profession,architecture
+newtothenavy,profession,armed forces
+bartenders,profession,bartenders
+Blacksmith,profession,blacksmiths
+CanadaPublicServants,profession,civil service
+uscg,profession,coast guard
+Construction,profession,construction
+consulting,profession,consulting
+datascience,profession,data science
+Dentistry,profession,dentist
+devops,profession,devops
+dropship,profession,dropshipping
+electricians,profession,electronics
+FinancialCareers,profession,finance
+Firefighting,profession,firefighters
+foreignservice,profession,foreign service
+TalesFromTheFrontDesk,profession,front desk
+pharmacy,profession,healthcare
+AskHR,profession,human resources
+interviews,profession,interview advice
+Journalism,profession,journalism
+Landlord,profession,landlord
+ProtectAndServe,profession,law enforcement
+Libraries,profession,librarian
+Machinists,profession,machining
+massage,profession,massage
+msp,profession,msp
+Nanny,profession,nanny
+mturk,profession,online money making
+ecommerce,profession,online retail
+peacecorps,profession,peace corps
+Plumbing,profession,plumbing
+projectmanagement,profession,project management
+digitalnomad,profession,remote working
+sales,profession,salespeople
+securityguards,profession,security guards
+bigseo,profession,seo
+SexWorkers,profession,sex workers
+socialwork,profession,social workers
+livesound,profession,stage technician
+Standup,profession,standup
+civilengineering,profession,structural engineering
+teaching,profession,teaching
+OccupationalTherapy,profession,therapist
+psychotherapy,profession,therapy
+Truckers,profession,trucking
+AskVet,profession,vetenarian
+VoiceActing,profession,voice acting
+web_design,profession,web design
+writing,profession,writing
+androiddev,programming,android
+bash,programming,bash
+csharp,programming,c
+csshelp,programming,css/html
+django,programming,django
+docker,programming,docker
+dotnet,programming,dot net
+git,programming,git
+golang,programming,go
+haskell,programming,haskell
+selfhosted,programming,hosting
+swift,programming,ios
+javahelp,programming,java
+reactjs,programming,javascript
+matlab,programming,matlab
+PHPhelp,programming,php
+learnpython,programming,python
+rstats,programming,r
+rails,programming,ruby
+rust,programming,rust language
+SQL,programming,sql
+Psychic,religion/supernatural,ESP
+AstralProjection,religion/supernatural,astral projection
+astrology,religion/supernatural,astrology
+atheism,religion/supernatural,atheism
+Tulpas,religion/supernatural,buddhism
+latterdaysaints,religion/supernatural,christianity
+DimensionalJumping,religion/supernatural,dimension jumping
+Ghosts,religion/supernatural,ghosts
+hinduism,religion/supernatural,hinduism
+islam,religion/supernatural,islamism
+Judaism,religion/supernatural,judaism
+tarot,religion/supernatural,tarot cards
+occult,religion/supernatural,witchcraft
+callofcthulhu,rpg,call of cthulhu
+dndnext,rpg,dungeons and dragons
+savageworlds,rpg,savage worlds
+Shadowrun,rpg,shadowrun
+swrpg,rpg,star wars
+starfinder_rpg,rpg,starfinder
+WhiteWolfRPG,rpg,white wolf
+ABDL,sex/relationships,adult baby
+amiugly,sex/relationships,appearance advice
+asexuality,sex/relationships,asexuality
+BDSMcommunity,sex/relationships,bdsm
+bisexual,sex/relationships,bisexual
+ExNoContact,sex/relationships,breakups
+chastity,sex/relationships,chastity
+Cuckold,sex/relationships,cuckold
+lawofattraction,sex/relationships,dating
+JUSTNOMIL,sex/relationships,family
+fleshlight,sex/relationships,fleshlight
+furry,sex/relationships,furry
+gaymers,sex/relationships,gay
+Incels,sex/relationships,incels
+incest,sex/relationships,incest
+survivinginfidelity,sex/relationships,infidelity
+DeadBedrooms,sex/relationships,lack of sex
+actuallesbians,sex/relationships,lesbian
+littlespace,sex/relationships,littlespace
+lonely,sex/relationships,loneliness
+LongDistance,sex/relationships,long distance
+weddingplanning,sex/relationships,marriage/weddings
+seduction,sex/relationships,pick up artists
+polyamory,sex/relationships,polyamory
+tipofmypenis,sex/relationships,pornography
+Rapekink,sex/relationships,rape fantasy
+SexToys,sex/relationships,sex toys
+sissyhypno,sex/relationships,sissy
+socialskills,sex/relationships,social skills
+sugarlifestyleforum,sex/relationships,sugar lifestyle
+widowers,sex/relationships,widowers
+rapecounseling,social_group,abuse victims
+aznidentity,social_group,asian
+crossdressing,social_group,crossdressing
+freemasonry,social_group,freemasons
+genderqueer,social_group,genderqueer
+hapas,social_group,hapas
+homeless,social_group,homeless
+homestead,social_group,homestead
+swoleacceptance,social_group,muscular
+short,social_group,short
+preppers,social_group,survivalists
+tall,social_group,tall
+askMRP,social_group,the red pill
+ftm,social_group,transgender
+vandwellers,social_group,van dwellers
+Veterans,social_group,veterans
+AdobeIllustrator,software,2d graphics editing
+blender,software,3d graphics editing
+EmulationOnAndroid,software,android emulator
+LineageOS,software,android os
+osx,software,apple os
+AndroidAuto,software,automobile software
+ynab,software,budgeting
+salesforce,software,cloud computing
+SolidWorks,software,computer aided design
+uBlockOrigin,software,content filtering
+tableau,software,data visualization
+MSAccess,software,database management
+Rainmeter,software,desktop customisation
+sharepoint,software,document management
+Outlook,software,email client
+PFSENSE,software,firewall
+Anki,software,flashcard program
+gis,software,gis
+homeassistant,software,home automation
+Cloud9,software,ide
+SCCM,software,infrastructure
+sonarr,software,internet video recorder
+AutoHotkey,software,keyboard
+kodi,software,media player
+windows,software,microsoft os
+ableton,software,music production
+spotify,software,music streaming / store
+freenas,software,nas
+unRAID,software,nas os
+OneNote,software,note taking
+photoshop,software,photo editing
+pihole,software,privacy tool
+redditsync,software,reddit browser
+snapchat,software,social media
+excel,software,spreadsheet
+Roll20,software,tabletop emulator
+tasker,software,task automation
+ifttt,software,task automator
+discordapp,software,telecommunications
+vim,software,text editor
+radarr,software,torrent client
+TOR,software,torrents
+linuxquestions,software,unix/unix-like
+premiere,software,video editing
+obs,software,video streaming
+origin,software,videogame distribution
+cemu,software,videogame emulator
+unrealengine,software,videogame engine
+oculusnsfw,software,virtual reality
+vmware,software,virtualization
+firefox,software,web browser
+workflow,software,workflow management
+Archery,sports,archery
+baseball,sports,baseball
+warriors,sports,basketball
+cycling,sports,bicycle related
+billiards,sports,billiards
+Bowling,sports,bowling
+amateur_boxing,sports,boxing
+climbing,sports,climbing
+Cricket,sports,cricket
+Darts,sports,darts
+discgolf,sports,disc golf
+Equestrian,sports,equestrian
+Fencing,sports,fencing
+oaklandraiders,sports,football
+formula1,sports,formula 1
+golf,sports,golf
+hockeyplayers,sports,hockey
+bjj,sports,ju jitsu
+judo,sports,judo
+Kayaking,sports,kayaking
+lacrosse,sports,lacrosse
+MMA,sports,mma
+NASCAR,sports,nascar
+spartanrace,sports,obstacle course
+rollerblading,sports,roller blading
+Rowing,sports,rowing
+rugbyunion,sports,rugby
+running,sports,running
+NewSkaters,sports,skateboarding
+skiing,sports,skiing
+snowboarding,sports,snowboarding
+soccer,sports,soccer
+surfing,sports,surfing
+Swimming,sports,swimming
+tennis,sports,tennis
+triathlon,sports,triathlon
+ultimate,sports,ultimate frisbee
+volleyball,sports,volleyball
+xxfitness,sports,weightlifting/strength training
+WWE,sports,wrestling
+AskAnthropology,stem,anthropology
+space,stem,astronomy
+bioinformatics,stem,bioinformatics
+biology,stem,biology
+chemistry,stem,chemistry
+cscareerquestions,stem,computer science
+hacking,stem,computer security
+geologycareers,stem,geology
+learnmachinelearning,stem,machine learning / ai
+math,stem,mathematics
+Physics,stem,physics
+AcademicPsychology,stem,psychology
+robotics,stem,robotics
+statistics,stem,statistics
+backpacking,travel,backpacking
+Cruise,travel,cruise
+awardtravel,travel,flights
+hiking,travel,hiking
+roadtrip,travel,road trips
+13ReasonsWhy,tv_show,13 reasons why
+90DayFiance,tv_show,90 day fiance
+adventuretime,tv_show,adventure time
+AmericanHorrorStory,tv_show,american horror story
+ArcherFX,tv_show,archer
+BigBrother,tv_show,big brother
+blackmirror,tv_show,black mirror
+BoJackHorseman,tv_show,bojack horseman
+breakingbad,tv_show,breaking bad
+buffy,tv_show,buffy the vampire slayer
+DanLeBatardShow,tv_show,dan le batard
+arrow,tv_show,dc universe
+doctorwho,tv_show,dr who
+fairytail,tv_show,fairy tail
+FargoTV,tv_show,fargo
+howyoudoin,tv_show,friends
+gameofthrones,tv_show,game of thrones
+GilmoreGirls,tv_show,gilmore girls
+gravityfalls,tv_show,gravity falls
+greysanatomy,tv_show,greys anatomy
+HouseOfCards,tv_show,house of cards
+HIMYM,tv_show,how I met your mother
+IASIP,tv_show,its always sunny in philadelphia
+KDRAMA,tv_show,kdrama
+lost,tv_show,lost
+LoveLive,tv_show,love live
+lucifer,tv_show,lucifer
+madmen,tv_show,madmen
+shield,tv_show,marvel universe
+MrRobot,tv_show,mr robot
+MtvChallenge,tv_show,mtv challenge
+MTVScream,tv_show,mtv scream
+mylittlepony,tv_show,my little pony
+orangeisthenewblack,tv_show,orange is the new black
+powerrangers,tv_show,power rangers
+PrettyLittleLiars,tv_show,pretty little liars
+BravoRealHousewives,tv_show,real housewives
+rickandmorty,tv_show,rick and morty
+riverdale,tv_show,riverdale
+rupaulsdragrace,tv_show,ru paul
+samuraijack,tv_show,samurai jack
+shameless,tv_show,shameless
+Sherlock,tv_show,sherlock
+SiliconValleyHBO,tv_show,silicon valley
+southpark,tv_show,south park
+startrek,tv_show,star trek
+StarVStheForcesofEvil,tv_show,star vs the forces of evil
+Stargate,tv_show,stargate
+stevenuniverse,tv_show,steven universe
+StrangerThings,tv_show,stranger things
+Supernatural,tv_show,supernatural tv show
+survivor,tv_show,survivor
+teenmom,tv_show,teen mom
+The100,tv_show,the 100
+thebachelor,tv_show,the bachelor
+TheExpanse,tv_show,the expanse
+TheHandmaidsTale,tv_show,the handmaid's tale
+TheLeftovers,tv_show,the leftovers
+TheOA,tv_show,the oa
+DunderMifflin,tv_show,the office
+TheSimpsons,tv_show,the simpsons
+thesopranos,tv_show,the sopranos
+thewalkingdead,tv_show,the walking dead
+TheWire,tv_show,the wire
+transformers,tv_show,transformers
+twinpeaks,tv_show,twin peaks
+vikingstv,tv_show,vikings
+westworld,tv_show,west world
+7daystodie,video_game,7 days to die
+NHLHUT,video_game,EA NHL
+absolver,video_game,absolver
+ApocalypseRising,video_game,apocalypse rising
+arenaofvalor,video_game,arena of valor
+baldursgate,video_game,baldurs gate
+battlefield_one,video_game,battlefield
+battlecats,video_game,batttlecats
+bladeandsoul,video_game,blade and soul
+Borderlands2,video_game,borderlands
+Brawlhalla,video_game,brawlhalla
+CoDCompetitive,video_game,call of duty
+civ,video_game,civilization
+ConanExiles,video_game,conan exiles
+danganronpa,video_game,danganronpa
+sharditkeepit,video_game,destiny
+DigimonLinkz,video_game,digimon
+dontstarve,video_game,don't starve
+learndota2,video_game,dota
+DragonsDogma,video_game,dragons dogma
+duelyst,video_game,duelyst
+DFO,video_game,dungeon fighter
+dwarffortress,video_game,dwarf fortress
+dyinglight,video_game,dying llight
+EliteOne,video_game,elite
+EnterTheGungeon,video_game,enter the gungeon
+Eve,video_game,eve online
+everquest,video_game,everquest
+EvolveGame,video_game,evolve
+factorio,video_game,factorio
+fivenightsatfreddys,video_game,five nights at freddys
+CompetitiveForHonor,video_game,for honor
+FORTnITE,video_game,fortnite
+foxholegame,video_game,foxhole
+GearsOfWar,video_game,gears of war
+GhostRecon,video_game,ghost recon
+gigantic,video_game,gigantic
+GodofWar,video_game,god of war
+gtaonline,video_game,grand theft auto
+Grimdawn,video_game,grim dawn
+halo,video_game,halo
+wildhearthstone,video_game,hearthstone
+hitmobile,video_game,heroes of incredible tales
+HollowKnight,video_game,hollow knight
+IdleHeroes,video_game,idle heroes
+kingdomcome,video_game,kingdom come
+Kings_Raid,video_game,kings raid
+LDESurvival,video_game,last day on earth
+lifeisstrange,video_game,life is strange
+Lineage2Revolution,video_game,lineage
+MarioMaker,video_game,mario
+OutreachHPG,video_game,mech warrior
+minecraftsuggestions,video_game,minecraft
+MSLGame,video_game,monster super league
+mopeio,video_game,mopeio
+mountandblade,video_game,mount and blade
+needforspeed,video_game,need for speed
+neopets,video_game,neopets
+Nioh,video_game,nioh
+NoMansSkyTheGame,video_game,no mans sky
+osugame,video_game,osu
+OOTP,video_game,out of the park
+Petscop,video_game,pets cop
+projecteternity,video_game,pillars of eternity
+PvZHeroes,video_game,plants vs zombies
+pesmobile,video_game,pro evolution soccer
+reddeadredemption,video_game,red dead redemption
+residentevil,video_game,resident evil
+RocketLeague,video_game,rocket league
+Seaofthieves,video_game,sea of thieves
+splatoon,video_game,splatoon
+starcraft,video_game,starcraft
+StateOfDecay,video_game,state of decay
+steinsgate,video_game,steins gate
+Kappa,video_game,street fighter
+subnautica,video_game,subnautica
+summonerswar,video_game,summoners war
+SwagBucks,video_game,swag bucks
+Tekken,video_game,tekken
+Terraria,video_game,terraria
+bindingofisaac,video_game,the binding of isaac
+The_Division,video_game,the division
+teslore,video_game,the elder scrolls
+thelastofus,video_game,the last of us
+thesims,video_game,the sims
+titanfall,video_game,titanfall
+TownofSalemgame,video_game,town of salem
+Undertale,video_game,undertale
+vainglorygame,video_game,vainglory
+valkyrie_en,video_game,valkyrie
+Vermintide,video_game,vermintide
+walkingwarrobots,video_game,walking war robots
+Warframe,video_game,war frame
+Warthunder,video_game,war thunder
+wownoob,video_game,warcraft
+watch_dogs,video_game,watch dogs
+Wizard101,video_game,wizard 101
+WWEChampions,video_game,wwe
+yandere_simulator,video_game,yandere simulator
+ZeroEscape,video_game,zero escape
+CampHalfBloodRP,writing/stories,camp half blood
+MomForAMinute,writing/stories,childhood/family
+ComicBookCollabs,writing/stories,comic books
+DestructiveReaders,writing/stories,critical feedback
+TalesFromThePizzaGuy,writing/stories,customer service
+Dreams,writing/stories,dreams
+emojipasta,writing/stories,emojis
+KikRoleplay,writing/stories,erotic
+futarp,writing/stories,futanari
+Geosim,writing/stories,geopolitics
+shortscarystories,writing/stories,horror/creepy
+Jokes,writing/stories,jokes
+fatpeoplestories,writing/stories,obesity
+poetry_critics,writing/stories,poetry
+WritingPrompts,writing/stories,prompts
+quotes,writing/stories,quotes
+pettyrevenge,writing/stories,revenge
+riddles,writing/stories,riddles
+badroommates,writing/stories,roommate
+HFY,writing/stories,sci-fi
+talesfromtechsupport,writing/stories,tech support
+WayfarersPub,writing/stories,wayfarers pub
