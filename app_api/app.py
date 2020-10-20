@@ -31,7 +31,7 @@ def create_app():
         '''
 
         # gain inputs from html form
-        user_input = request.form['input']
+        user_input = flask.request.form.values()
 
         # convert generateor object to list
         user_input_list = list(user_input)

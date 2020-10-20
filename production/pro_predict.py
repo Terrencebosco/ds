@@ -22,12 +22,10 @@ with open('model/sklearn_label_encoder_v5.pickle', 'rb') as handle:
 
 maxlen = 250 # DO NOT MODIFY THIS
 
-maxlen = 250 # DO NOT MODIFY THIS
-
-def predict_on_new(input, tokenizer=tokenizer, restored_model=restored_model,
+def predict_on_new(input, tokenizer=tokenizer, restored_model=restored_model, 
                    maxlen=maxlen, encoder=encoder):
-  '''This function takes an input as a string (Web will hit our API endpoint)
-  and returns (in JSON format) the top five subreddit predictions along with
+  '''This function takes an input as a string (Web will hit our API endpoint) 
+  and returns (in JSON format) the top five subreddit predictions along with 
   each subreddit's tier 1 and tier 2 categories'''
   seq = tokenizer.texts_to_sequences([input])
   pad_seq = sequence.pad_sequences(seq, maxlen=maxlen)
@@ -50,6 +48,7 @@ def predict_on_new(input, tokenizer=tokenizer, restored_model=restored_model,
   pred_dict = OrderedDict(zip(pred_key, zip(class_names, zip(t1_category, t2_category))))
   return json.dumps(pred_dict)
 
+##### not used in build ####
 def json_to_list(json_string):
 
     # convert string to json
@@ -63,7 +62,31 @@ def json_to_list(json_string):
     for i in key_list:
         predictions.append(predict_json[i][0])
 
+    preds = zip(key_list)
+
     return predictions
+
+
+def pred_to_json(prediction):
+
+    # prediction = predict_on_new(user_input)
+
+    # convert string to json
+    predict_json = json.loads(prediction)
+
+    # get all keys from json
+    key_list = predict_json.keys()
+
+    # create list of all predictions
+    predictions_list = []
+    for i in key_list:
+        predictions_list.append(predict_json[i][0])
+
+    #zip predictions to key return string dict
+    key_val_zip = dict(zip(key_list,predictions_list))
+
+    #eval dict
+    return (eval(json.dumps(key_val_zip)))
 
 if __name__ == "__main__":
 
