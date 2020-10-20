@@ -5,7 +5,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
-from old_predict import predict_on_new
+from pro_predict import predict_on_new
 from os import getenv
 
 port = int(getenv("PORT", 5000))
@@ -22,17 +22,13 @@ def create_app():
     @app.route('/predict', methods=['POST'])
     def predict_sub():
 
-    # gain inputs from html form
+        # request json from front end.
         user_input = request.json['input']
-        # convert generateor object to list
-        # user_input_list = list(user_input)
-        # print(user_input)
-        # slice list convert to proper type
-        # text = int(user_input_list[0])
 
+        # make prediction with input
         prediction = predict_on_new(user_input)
 
-        # # return prediction
+        # return prediction
         return(jsonify(prediction))
 
     return app

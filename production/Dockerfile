@@ -21,4 +21,4 @@ EXPOSE 5000
 # run flask app
 ENTRYPOINT ["python"]
 
-CMD ["app_api/app.py"]
+CMD ["production/pro_api.py"]
