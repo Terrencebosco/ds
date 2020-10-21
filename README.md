@@ -54,7 +54,7 @@ This word map contains the top 20 words in the vocabulary (post-cleaning). The s
 </p>
 
 ### Vocabulary Matrix
-See the entire vocabulary matrix [here](https://drive.google.com/file/d/1foR_QCQcb3fb9W_3T6Wynq9sjmgrDjRI/view?usp=sharing)(post-cleaning)
+See the entire vocabulary matrix [here](https://drive.google.com/file/d/1foR_QCQcb3fb9W_3T6Wynq9sjmgrDjRI/view?usp=sharing)
 | word   | appears_in | count   | rank | pct_total             | cul_pct_total        | appears_in_pct      |
 |--------|------------|---------|------|-----------------------|----------------------|---------------------|
 |        | 566496     | 2435031 | 1.0  | 0.039063590753664716  | 0.039063590753664716 | 0.5592260612043435  |
