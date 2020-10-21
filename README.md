@@ -157,4 +157,4 @@ up and running we implemented the image onto [heroku](https://devcenter.heroku.c
 
 ## Model Architecture
 
-![AltText](architecture/model_architecture_w_batch.png)
+![AltText](architecture/model_architecture_w_batch_v2.png)
