@@ -48,7 +48,7 @@ we have two applications in our file system. `app_api` is the root of our flask 
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
 
 ### Squarify Word Map
-This word map contains the top 20 words in the vocabulary (post-cleaning):
+This word map contains the top 20 words in the vocabulary (post-cleaning). The size of each box is indicative of the word frequency relative to the other words in the view. Colors are arbitrary.
 <p align="center">
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
