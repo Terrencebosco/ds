@@ -44,13 +44,13 @@
 we have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
 
 ## Data Exploration:
-
+### Length Distribution TODO
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
-
+### Top Words TODO
 <p align="center">
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
-
+### AUC TODO
 <p align="center">
   <img src="https://i.imgur.com/DzGgnTV.png" />
 </p>
