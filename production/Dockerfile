@@ -9,7 +9,7 @@ RUN python -m pip install --upgrade pip
 # create dir in imade
 WORKDIR /app
 
-#copy currence dir data to image dir
+#copy current dir data to image dir
 COPY . /app
 
 # install dependency to image
