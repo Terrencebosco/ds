@@ -2,7 +2,7 @@
 
 ## Model Architecture
 
-![Alt text](architecture/Model_Architecture.svg =100X100)
+![](architecture/Model_Architecture.svg =100X100)
 
 ## File Structure
 ```
