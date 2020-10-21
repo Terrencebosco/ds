@@ -46,10 +46,12 @@ we have two applications in our file system. `app_api` is the root of our flask 
 ## Data Exploration:
 ### Length Distribution TODO
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
+
 ### Top Words TODO
 <p align="center">
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
+
 ### AUC TODO
 <p align="center">
   <img src="https://i.imgur.com/DzGgnTV.png" />
