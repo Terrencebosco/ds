@@ -1,4 +1,9 @@
 # ds
+
+## Model Architecture
+
+![Alt text](architecture/Model_Architecture.svg)
+
 ## File Structure
 ```
 .
