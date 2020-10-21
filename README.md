@@ -48,12 +48,13 @@ we have two applications in our file system. `app_api` is the root of our flask 
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
 
 ### Squarify Word Map
-This word map contains the top 20 words in the vocabulary (post-cleaning). See the entire matrix [here]:(https://drive.google.com/file/d/1foR_QCQcb3fb9W_3T6Wynq9sjmgrDjRI/view?usp=sharing)
+This word map contains the top 20 words in the vocabulary (post-cleaning).
 <p align="center">
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
 
-### Matrix
+### Vocabulary Matrix
+See the entire matrix [here](https://drive.google.com/file/d/1foR_QCQcb3fb9W_3T6Wynq9sjmgrDjRI/view?usp=sharing)
 | word   | appears_in | count   | rank | pct_total             | cul_pct_total        | appears_in_pct      |
 |--------|------------|---------|------|-----------------------|----------------------|---------------------|
 |        | 566496     | 2435031 | 1.0  | 0.039063590753664716  | 0.039063590753664716 | 0.5592260612043435  |
