@@ -44,7 +44,7 @@
 we have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
 
 ## Data Exploration:
-### Length Distribution of Vocabulary
+### Length Distribution of 
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
 
 ### Squarify Word Map
