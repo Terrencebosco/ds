@@ -44,9 +44,10 @@
 we have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
 
 ## Task
-1,013 class multi-classification problem
+Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on whether or not they like it. It is broken up into more than a million communities known as “subreddits,” each of which covers a different topic. The name of a subreddit begins with /r/, which is part of the URL that Reddit uses. For example, /r/nba is a subreddit where people talk about the National Basketball Association, while /r/boardgames is a subreddit for people to discuss board games. Those are straightforward subreddits, but they can get weird, such as /r/birdswitharms, a subreddit devoted to pictures of birds…with arms. Reddit is an evergrowing platform that sees thousands of new users per day, some of which are most likely unsure of where to post. Post Here helps users find the best place to share on Reddit. The user enters their post and Post Here finds the subreddit that is most appropriate for that post.
 ## Data Exploration:
 
+### Dimensionality
 Dataset Dimensions: (1013000, 4)
 
 70/30 Train, Test Split:
