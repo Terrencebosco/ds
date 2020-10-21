@@ -54,6 +54,7 @@ we have two applications in our file system. `app_api` is the root of our flask 
 
 ### Top 20 Words Matrix TODO
 <center>
+
 | word   | appears_in | count   | rank | pct_total             | cul_pct_total        | appears_in_pct      |
 |--------|------------|---------|------|-----------------------|----------------------|---------------------|
 |        | 566496     | 2435031 | 1.0  | 0.039063590753664716  | 0.039063590753664716 | 0.5592260612043435  |
@@ -77,6 +78,7 @@ we have two applications in our file system. `app_api` is the root of our flask 
 | need   | 162507     | 215368  | 19.0 | 0.0034550062867516928 | 0.13083822997631847  | 0.16042152023692005 |
 | new    | 155756     | 207273  | 20.0 | 0.0033251435592747468 | 0.1341633735355932   | 0.15375715695952616 |
 | help   | 164737     | 207224  | 21.0 | 0.003324357484704473  | 0.13748773102029768  | 0.1626229022704837  |
+  
 </center>
 
 ### AUC TODO
