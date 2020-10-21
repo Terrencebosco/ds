@@ -43,15 +43,17 @@
 ## Current file logic:
 we have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
 
+## Task
+1,013 class multi-classification problem
 ## Data Exploration:
 
 Dataset Dimensions: (1013000, 4)
 
 70/30 Train, Test Split:
-1. X_train Dimensions: (709100,)
-2. y_train Dimensions: (709100,)
-3. X_test Dimensions: (303900,)
-4. y_test Dimensions: (303900,)
+- X_train Dimensions: (709100,)
+- y_train Dimensions: (709100,)
+- X_test Dimensions: (303900,)
+- y_test Dimensions: (303900,)
 
 ### Length Distribution of Reddit Posts
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
