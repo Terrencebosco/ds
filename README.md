@@ -2,7 +2,7 @@
 
 ## Model Architecture
 
-![](architecture/Model_Architecture.svg =100X100)
+![AltText](architecture/model_architecture.png)
 
 ## File Structure
 ```
