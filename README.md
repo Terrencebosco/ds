@@ -47,7 +47,7 @@ we have two applications in our file system. `app_api` is the root of our flask 
 
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
 
-![WorkHeatMap](https://i.imgur.com/5GXDISO.png)
+<div style="text-align:center"><img src="https://i.imgur.com/5GXDISO.png" /></div>
 
 ![Auc](https://i.imgur.com/DzGgnTV.png)
 
