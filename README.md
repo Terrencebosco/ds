@@ -51,7 +51,9 @@ we have two applications in our file system. `app_api` is the root of our flask 
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
 
-![Auc](https://i.imgur.com/DzGgnTV.png)
+<p align="center">
+  <img src="https://i.imgur.com/DzGgnTV.png" />
+</p>
 
 # Flask API for reddit - posthere
 
