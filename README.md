@@ -155,6 +155,6 @@ we then build the docker container via command line and tested outside port acce
 up and running we implemented the image onto [heroku](https://devcenter.heroku.com/articles/heroku-cli-commands)
 
 
-## Model Architecture
+# Model Architecture
 
 ![AltText](architecture/model_architecture_w_batch_v2.png)
