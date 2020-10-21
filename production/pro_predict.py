@@ -7,25 +7,25 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 
 # Read in tier 1 and tier 2 category lookup data
-subreddit_info = read_csv('model/subreddit_info_cleaned.csv')
+subreddit_info = read_csv('production/model/subreddit_info_cleaned.csv')
 
 # Load serialized model
-restored_model = load_model('model/keras_pred_subreddit_model_v5.h5')
+restored_model = load_model('production/model/keras_pred_subreddit_model_v5.h5')
 
 # Load serialized tokenizer
-with open('model/keras_tokenizer_v5.pickle', 'rb') as handle:
+with open('production/model/keras_tokenizer_v5.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Load serialized label encoder
-with open('model/sklearn_label_encoder_v5.pickle', 'rb') as handle:
+with open('production/model/sklearn_label_encoder_v5.pickle', 'rb') as handle:
     encoder = pickle.load(handle)
 
 maxlen = 250 # DO NOT MODIFY THIS
 
-def predict_on_new(input, tokenizer=tokenizer, restored_model=restored_model, 
+def predict_on_new(input, tokenizer=tokenizer, restored_model=restored_model,
                    maxlen=maxlen, encoder=encoder):
-  '''This function takes an input as a string (Web will hit our API endpoint) 
-  and returns (in JSON format) the top five subreddit predictions along with 
+  '''This function takes an input as a string (Web will hit our API endpoint)
+  and returns (in JSON format) the top five subreddit predictions along with
   each subreddit's tier 1 and tier 2 categories'''
   seq = tokenizer.texts_to_sequences([input])
   pad_seq = sequence.pad_sequences(seq, maxlen=maxlen)

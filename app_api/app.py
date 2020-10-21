@@ -52,7 +52,7 @@ def create_app():
 
 if __name__ == '__main__':
     APP = create_app()
-    APP.run(debug=True, host="0.0.0.0", port=port)
+    APP.run(host="0.0.0.0", port=port)
 
         # text = '''Was in Vegas this weekend and hit up Speed Vegas. My plan
         # originally was to drive the C8 but this time I could afford the Ferrari so I
