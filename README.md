@@ -49,7 +49,7 @@ we have two applications in our file system. `app_api` is the root of our flask 
 
 <div style="text-align:center"><img src="https://i.imgur.com/5GXDISO.png" /></div>
 
-<span style="display:block;text-align:center">![Wordmap]https://i.imgur.com/5GXDISO.png)</span>
+<span style="display:block;text-align:center">![Wordmap](https://i.imgur.com/5GXDISO.png)</span>
 
 ![Auc](https://i.imgur.com/DzGgnTV.png)
 
