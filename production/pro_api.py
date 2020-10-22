@@ -1,7 +1,3 @@
-########
-# just keeping this incase we run into issues with the new api/flaskapp
-########
-
 from flask import Flask, request
 from flask_cors import CORS
 import json

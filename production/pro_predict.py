@@ -7,17 +7,17 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 
 # Read in tier 1 and tier 2 category lookup data
-subreddit_info = read_csv('production/model/subreddit_info_cleaned.csv')
+subreddit_info = read_csv('model/subreddit_info_cleaned.csv')
 
 # Load serialized model
-restored_model = load_model('production/model/keras_pred_subreddit_model_v5.h5')
+restored_model = load_model('model/keras_pred_subreddit_model_v5.h5')
 
 # Load serialized tokenizer
-with open('production/model/keras_tokenizer_v5.pickle', 'rb') as handle:
+with open('model/keras_tokenizer_v5.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Load serialized label encoder
-with open('production/model/sklearn_label_encoder_v5.pickle', 'rb') as handle:
+with open('model/sklearn_label_encoder_v5.pickle', 'rb') as handle:
     encoder = pickle.load(handle)
 
 maxlen = 250 # DO NOT MODIFY THIS
