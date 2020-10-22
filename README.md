@@ -56,11 +56,21 @@ Dataset Dimensions: (1013000, 4)
 - X_test Dimensions: (303900,)
 - y_test Dimensions: (303900,)
 
+### Data Cleaning Workflow
+
+For optimal results, all Reddit posts in the dataset were cleaned according to the following workflow:
+
+1. Removal of all HTML line break tags
+2. Addition of custom stopwords
+3. Tokenization
+4. Lemmatization and case normalization
+5. Removal of all punctuation
+
 ### Length Distribution of Reddit Posts
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
 
 ### Squarify Word Map
-This word map contains the top 20 words in the vocabulary (post-cleaning). The size of each box is indicative of the word frequency relative to the other words in the view. Colors are arbitrary.
+This word map contains the top 20 words in the vocabulary. The size of each box is indicative of the word frequency relative to the other words in the view. Colors are arbitrary.
 <p align="center">
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
