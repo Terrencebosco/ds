@@ -45,19 +45,46 @@
 └── README.md
 
 ```
-## Current file logic:
-we have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
+## Current File Logic:
+We have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
+
+## Task
+Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on whether or not they like it. It is broken up into more than two million communities known as “subreddits,” each of which covers a different topic. The name of a subreddit begins with /r/, which is part of the URL that Reddit uses. For example, /r/nba is a subreddit where people talk about the National Basketball Association, while /r/boardgames is a subreddit for people to discuss board games. Those are straightforward subreddits, but they can get weird, such as /r/birdswitharms, a subreddit devoted to pictures of birds…with arms. 
+
+Reddit is an evergrowing platform that sees thousands of new users per day, some of which are likely unsure of where to post. Post Here helps users find the best place to share on Reddit. Using Natural Language Processing techniques and by implementing a neural network achitecture, the user is able to enter a post and Post Here finds the subreddit that is most appropriate for that post.
 
 ## Data Exploration:
-### Length Distribution TODO
+
+### Dimensionality
+Dataset Dimensions: (1013000, 4)
+
+70/30 Train, Test Split:
+- X_train Dimensions: (709100,)
+- y_train Dimensions: (709100,)
+- X_test Dimensions: (303900,)
+- y_test Dimensions: (303900,)
+
+### Data Cleaning Workflow
+
+For optimal results, all Reddit posts in the dataset were cleaned according to the following workflow:
+
+1. Removal of all HTML line break tags
+2. Addition of custom stopwords
+3. Tokenization
+4. Lemmatization and case normalization
+5. Removal of all punctuation
+
+### Length Distribution of Reddit Posts
 ![WordCount](https://i.imgur.com/vqjXP4N.png)
 
-### Top Words TODO
+### Squarify Word Map
+This word map contains the top 20 words in the vocabulary. The size of each box is indicative of the word frequency relative to the other words in the view. Colors are arbitrary.
 <p align="center">
   <img src="https://i.imgur.com/5GXDISO.png" />
 </p>
 
-### Top 20 Words Matrix TODO
+### Vocabulary Matrix
+See the entire vocabulary matrix [here](https://drive.google.com/file/d/1foR_QCQcb3fb9W_3T6Wynq9sjmgrDjRI/view?usp=sharing)
 | word   | appears_in | count   | rank | pct_total             | cul_pct_total        | appears_in_pct      |
 |--------|------------|---------|------|-----------------------|----------------------|---------------------|
 |        | 566496     | 2435031 | 1.0  | 0.039063590753664716  | 0.039063590753664716 | 0.5592260612043435  |
@@ -82,22 +109,27 @@ we have two applications in our file system. `app_api` is the root of our flask 
 | new    | 155756     | 207273  | 20.0 | 0.0033251435592747468 | 0.1341633735355932   | 0.15375715695952616 |
 | help   | 164737     | 207224  | 21.0 | 0.003324357484704473  | 0.13748773102029768  | 0.1626229022704837  |
 
-### AUC TODO
+### Model Architecture
+![AltText](architecture/model_architecture_w_batch_v2.png)
+
+This model uses Keras and Tensorflow end-to-end open source machine learning libraries to implement a deep neural network for 1,013 class multi-classification analysis. The model is trained and validated on a dataset of 1,013,000 posts from real users. The posts are pre-processed before entering the network architecture and result in accuracy of 70% on a validation set of 303,900 posts.
+
+### Training and Validation Curves
 <p align="center">
   <img src="https://i.imgur.com/DzGgnTV.png" />
 </p>
 
-# Flask API for reddit - posthere
+# Flask API for Reddit - Post Here
 
-gaining acces to api via url:
+Gaining acces to api via url:
 ```
 http://production-dev3.us-east-1.elasticbeanstalk.com/predict
 ```
 * final api for build week
 * predict route expects json object with key of "port" and value is the users text they want predicted.
 
-## pushing model to heroku from command line:
-make sure heroku cli is installed ([instructions can be found here](https://devcenter.heroku.com/articles/heroku-cli)).
+## Pushing Model to Heroku from Command Line
+Make sure heroku cli is installed ([instructions can be found here](https://devcenter.heroku.com/articles/heroku-cli)).
 
 ```
 git add .
@@ -111,7 +143,7 @@ heroku git:remote -a <appname>
 git push heroku master
 ```
 
-## Implementation of docker image for heroku flask app.
+## Implementation of Docker Image for Heroku Flask App
 
 docker: [download](https://www.docker.com/products/docker-desktop)
 
@@ -143,7 +175,7 @@ heroku container:push web --app <app name>
 heroku container:release web --app <app name>
 ```
 
-## Implementing AWS Beanstalk entity
+## Implementing AWS Beanstalk Entity
 
 ```
 pip install pipx
@@ -160,36 +192,31 @@ eb create
 # Docker Workflow:
 
 ## Use:
-when working with docker its important to understand the purposes of a image and
+When working with docker its important to understand the purposes of a image and
 container. docker allows developers to create applications with standardized executable. when
 working and developing an application that runs locally we can create a docker container
 with the same variables as our virtual environment so other users can run our application
 without the need of configuring dependencies and environment variables.
 
 ## Application:
-we started working with docker because our tensorflow predictive model was to large
+We started working with docker because our tensorflow predictive model was to large
 to host on heroku. while looking for solutions we discovered [this](https://medium.com/tarkalabs/docker-deployments-to-heroku-5802b14df4fa#:~:text=Slug%20size%20limit%3A%20The%20maximum,you%20are%20out%20of%20luck.) article describing heroku applications using heroku.
 
-the first goal was figuring out how to run our application within the container and being
+The first goal was figuring out how to run our application within the container and being
 able to access it from outside it. we used another [article](https://medium.com/@FelipeFaria/running-a-simple-flask-application-inside-a-docker-container-b83bf3e07dd5)
 to understand the work flow of this docker image to build ours. the only difference between this
 rendition and ours is how we formatted the application. in the `if __name__ == "__main__` we created the instance of the application when the file is called upon similar to the article. when the file was called the application starts.
 
-this moves us into docker to "store" and use our application.
+This moves us into docker to "store" and use our application.
 
 ## Docker In Production:
-the main issue we ran into was trying to understand the Dockerfile purpose and syntax. have has a total of 20 minutes of docker experience between the four of us the majority of our time was trouble shooting the docker container.
+The main issue we ran into was trying to understand the Dockerfile purpose and syntax. have has a total of 20 minutes of docker experience between the four of us the majority of our time was trouble shooting the docker container.
 
-we initially started with an instance of alpine linux machine to run our docker image
+We initially started with an instance of alpine linux machine to run our docker image
 but after several failed attempts and a quick reverence to the [docker](https://hub.docker.com/_/python) python documentation we settled on a pure instance of python to run our docker image.
 
-we froze our pipfile and created a requirement,txt that can be downloaded into the container. created a directory, stored the current code to that directory then ran the application via [syntax](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+We froze our pipfile and created a requirement,txt that can be downloaded into the container. created a directory, stored the current code to that directory then ran the application via [syntax](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 in the Dockerfile.
 
-we then build the docker container via command line and tested outside port access. once that was
+We then build the docker container via command line and tested outside port access. once that was
 up and running we implemented the image onto [heroku](https://devcenter.heroku.com/articles/heroku-cli-commands)
-
-
-# Model Architecture
-
-![AltText](architecture/model_architecture_w_batch_v2.png)
