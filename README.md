@@ -1,5 +1,8 @@
 # ds
 ## File Structure
+
+### To run application CD into directory.
+
 ```
 .
 ├── app_api
@@ -49,7 +52,7 @@
 We have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
 
 ## Task
-Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on whether or not they like it. It is broken up into more than two million communities known as “subreddits,” each of which covers a different topic. The name of a subreddit begins with /r/, which is part of the URL that Reddit uses. For example, /r/nba is a subreddit where people talk about the National Basketball Association, while /r/boardgames is a subreddit for people to discuss board games. Those are straightforward subreddits, but they can get weird, such as /r/birdswitharms, a subreddit devoted to pictures of birds…with arms. 
+Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on whether or not they like it. It is broken up into more than two million communities known as “subreddits,” each of which covers a different topic. The name of a subreddit begins with /r/, which is part of the URL that Reddit uses. For example, /r/nba is a subreddit where people talk about the National Basketball Association, while /r/boardgames is a subreddit for people to discuss board games. Those are straightforward subreddits, but they can get weird, such as /r/birdswitharms, a subreddit devoted to pictures of birds…with arms.
 
 Reddit is an evergrowing platform that sees thousands of new users per day, some of which are likely unsure of where to post. Post Here helps users find the best place to share on Reddit. Using Natural Language Processing techniques and by implementing a neural network achitecture, the user is able to enter a post and Post Here finds the subreddit that is most appropriate for that post.
 
@@ -123,7 +126,7 @@ This model uses Keras and Tensorflow end-to-end open source machine learning lib
 
 Gaining acces to api via url:
 ```
-http://production-dev3.us-east-1.elasticbeanstalk.com/predict
+http://easyreach-dev.us-east-1.elasticbeanstalk.com/predict
 ```
 * final api for build week
 * predict route expects json object with key of "port" and value is the users text they want predicted.
