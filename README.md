@@ -104,7 +104,7 @@ See the entire vocabulary matrix [here](https://drive.google.com/file/d/1foR_QCQ
 ### Model Architecture
 ![AltText](architecture/model_architecture_w_batch_v2.png)
 
-This model uses Keras and Tensorflow end-to-end open source machine learning libraries to implement a deep neural network for 1,013 class multi-classification analysis. The model is trained on a dataset of 1,013,000 posts from real users. The posts are pre-processed before entering the network architecture and result in accuracy of 70% on a validation set of 303,900 posts.
+This model uses Keras and Tensorflow end-to-end open source machine learning libraries to implement a deep neural network for 1,013 class multi-classification analysis. The model is trained and validated on a dataset of 1,013,000 posts from real users. The posts are pre-processed before entering the network architecture and result in accuracy of 70% on a validation set of 303,900 posts.
 
 ### Training and Validation Curves
 <p align="center">
