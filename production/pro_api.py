@@ -23,7 +23,7 @@ def create_app():
     def predict_sub():
 
         # request json from front end.
-        user_input = request.json['post']
+        user_input = request.json['text']
 
         # make prediction with input
         prediction = predict_on_new(user_input)
