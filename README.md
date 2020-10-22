@@ -101,6 +101,11 @@ See the entire vocabulary matrix [here](https://drive.google.com/file/d/1foR_QCQ
 | new    | 155756     | 207273  | 20.0 | 0.0033251435592747468 | 0.1341633735355932   | 0.15375715695952616 |
 | help   | 164737     | 207224  | 21.0 | 0.003324357484704473  | 0.13748773102029768  | 0.1626229022704837  |
 
+### Model Architecture
+![AltText](architecture/model_architecture_w_batch_v2.png)
+
+This model uses Keras and Tensorflow end-to-end open source machine learning libraries to implement a deep neural network for 1,013 class multi-classification analysis. The model is trained on a dataset of 1,013,000 posts from real users. The posts are pre-processed before entering the network architecture and result in accuracy of 70% on a validation set of 303,900 posts.
+
 ### Training and Validation Curves
 <p align="center">
   <img src="https://i.imgur.com/DzGgnTV.png" />
@@ -207,8 +212,3 @@ in the Dockerfile.
 
 we then build the docker container via command line and tested outside port access. once that was
 up and running we implemented the image onto [heroku](https://devcenter.heroku.com/articles/heroku-cli-commands)
-
-
-# Model Architecture
-
-![AltText](architecture/model_architecture_w_batch_v2.png)
