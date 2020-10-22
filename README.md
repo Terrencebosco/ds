@@ -44,7 +44,10 @@
 We have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
 
 ## Task
-Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on whether or not they like it. It is broken up into more than two million communities known as “subreddits,” each of which covers a different topic. The name of a subreddit begins with /r/, which is part of the URL that Reddit uses. For example, /r/nba is a subreddit where people talk about the National Basketball Association, while /r/boardgames is a subreddit for people to discuss board games. Those are straightforward subreddits, but they can get weird, such as /r/birdswitharms, a subreddit devoted to pictures of birds…with arms. Reddit is an evergrowing platform that sees thousands of new users per day, some of which are likely unsure of where to post. Post Here helps users find the best place to share on Reddit. Using Natural Language Processing techniques and by implementing a neural network achitecture, the user is able to enter a post and Post Here finds the subreddit that is most appropriate for that post. 
+Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on whether or not they like it. It is broken up into more than two million communities known as “subreddits,” each of which covers a different topic. The name of a subreddit begins with /r/, which is part of the URL that Reddit uses. For example, /r/nba is a subreddit where people talk about the National Basketball Association, while /r/boardgames is a subreddit for people to discuss board games. Those are straightforward subreddits, but they can get weird, such as /r/birdswitharms, a subreddit devoted to pictures of birds…with arms. 
+
+Reddit is an evergrowing platform that sees thousands of new users per day, some of which are likely unsure of where to post. Post Here helps users find the best place to share on Reddit. Using Natural Language Processing techniques and by implementing a neural network achitecture, the user is able to enter a post and Post Here finds the subreddit that is most appropriate for that post.
+
 ## Data Exploration:
 
 ### Dimensionality
@@ -184,31 +187,31 @@ eb create
 # Docker Workflow:
 
 ## Use:
-when working with docker its important to understand the purposes of a image and
+When working with docker its important to understand the purposes of a image and
 container. docker allows developers to create applications with standardized executable. when
 working and developing an application that runs locally we can create a docker container
 with the same variables as our virtual environment so other users can run our application
 without the need of configuring dependencies and environment variables.
 
 ## Application:
-we started working with docker because our tensorflow predictive model was to large
+We started working with docker because our tensorflow predictive model was to large
 to host on heroku. while looking for solutions we discovered [this](https://medium.com/tarkalabs/docker-deployments-to-heroku-5802b14df4fa#:~:text=Slug%20size%20limit%3A%20The%20maximum,you%20are%20out%20of%20luck.) article describing heroku applications using heroku.
 
-the first goal was figuring out how to run our application within the container and being
+The first goal was figuring out how to run our application within the container and being
 able to access it from outside it. we used another [article](https://medium.com/@FelipeFaria/running-a-simple-flask-application-inside-a-docker-container-b83bf3e07dd5)
 to understand the work flow of this docker image to build ours. the only difference between this
 rendition and ours is how we formatted the application. in the `if __name__ == "__main__` we created the instance of the application when the file is called upon similar to the article. when the file was called the application starts.
 
-this moves us into docker to "store" and use our application.
+This moves us into docker to "store" and use our application.
 
 ## Docker In Production:
-the main issue we ran into was trying to understand the Dockerfile purpose and syntax. have has a total of 20 minutes of docker experience between the four of us the majority of our time was trouble shooting the docker container.
+The main issue we ran into was trying to understand the Dockerfile purpose and syntax. have has a total of 20 minutes of docker experience between the four of us the majority of our time was trouble shooting the docker container.
 
-we initially started with an instance of alpine linux machine to run our docker image
+We initially started with an instance of alpine linux machine to run our docker image
 but after several failed attempts and a quick reverence to the [docker](https://hub.docker.com/_/python) python documentation we settled on a pure instance of python to run our docker image.
 
-we froze our pipfile and created a requirement,txt that can be downloaded into the container. created a directory, stored the current code to that directory then ran the application via [syntax](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+We froze our pipfile and created a requirement,txt that can be downloaded into the container. created a directory, stored the current code to that directory then ran the application via [syntax](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 in the Dockerfile.
 
-we then build the docker container via command line and tested outside port access. once that was
+We then build the docker container via command line and tested outside port access. once that was
 up and running we implemented the image onto [heroku](https://devcenter.heroku.com/articles/heroku-cli-commands)
