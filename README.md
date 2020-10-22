@@ -124,7 +124,7 @@ http://production-dev3.us-east-1.elasticbeanstalk.com/predict
 * predict route expects json object with key of "port" and value is the users text they want predicted.
 
 ## Pushing Model to Heroku from Command Line
-make sure heroku cli is installed ([instructions can be found here](https://devcenter.heroku.com/articles/heroku-cli)).
+Make sure heroku cli is installed ([instructions can be found here](https://devcenter.heroku.com/articles/heroku-cli)).
 
 ```
 git add .
