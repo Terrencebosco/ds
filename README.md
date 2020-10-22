@@ -3,42 +3,47 @@
 ```
 .
 ├── app_api
-│   ├── app.py
-│   ├── Dockerfile
-│   ├── __init__.py
-│   ├── model
-│   │   ├── keras_pred_subreddit_model_v5.h5
-│   │   ├── keras_tokenizer_v5.pickle
-│   │   ├── sklearn_label_encoder_v5.pickle
-│   │   └── subreddit_info_cleaned.csv
-│   ├── predict.py
-│   ├── requirements.txt
-│   └── templates
-│       ├── about.html
-│       ├── base.html
-│       └── bootstrap_layout.html
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── __init__.py
+│   ├── model
+│   │   ├── keras_pred_subreddit_model_v5.h5
+│   │   ├── keras_tokenizer_v5.pickle
+│   │   ├── sklearn_label_encoder_v5.pickle
+│   │   └── subreddit_info_cleaned.csv
+│   ├── predict.py
+│   ├── requirements.txt
+│   └── templates
+│       ├── about.html
+│       ├── base.html
+│       └── bootstrap_layout.html
+├── architecture
+│   ├── model_architecture.png
+│   ├── model_architecture.svg
+│   └── model_architecture_w_batch_v2.png
 ├── code
-│   ├── Code_for_API_Endpoint.ipynb
-│   └── Subreddit_Predictor.ipynb
+│   ├── Code_for_API_Endpoint.ipynb
+│   └── Subreddit_Predictor.ipynb
 ├── heroku_files
-│   ├── heroku.yml
-│   ├── notes.md
-│   ├── Procfile
-│   └── runtime.txt
+│   ├── heroku.yml
+│   ├── notes.md
+│   ├── Procfile
+│   └── runtime.txt
 ├── LICENSE
 ├── Pipfile
 ├── Pipfile.lock
 ├── production
-│   ├── Dockerfile
-│   ├── model
-│   │   ├── keras_pred_subreddit_model_v5.h5
-│   │   ├── keras_tokenizer_v5.pickle
-│   │   ├── sklearn_label_encoder_v5.pickle
-│   │   └── subreddit_info_cleaned.csv
-│   ├── pro_api.py
-│   ├── pro_predict.py
-│   └── requirements.txt
+│   ├── Dockerfile
+│   ├── model
+│   │   ├── keras_pred_subreddit_model_v5.h5
+│   │   ├── keras_tokenizer_v5.pickle
+│   │   ├── sklearn_label_encoder_v5.pickle
+│   │   └── subreddit_info_cleaned.csv
+│   ├── pro_api.py
+│   ├── pro_predict.py
+│   └── requirements.txt
 └── README.md
+
 ```
 ## Current file logic:
 we have two applications in our file system. `app_api` is the root of our flask application that has a frontend, model prediction, and dockerfile for production. our `production` folder is the api for frontend to connect to, also had docker specific file. `heroku_files` is the files used for production onto heroku.
